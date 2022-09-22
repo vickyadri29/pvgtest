@@ -4,21 +4,23 @@ import Image from "next/image";
 import Header from "./Header";
 import CardMoney from "./CardMoney";
 import Products from "./Products";
+import Agents from "./Agents";
 
 // Import Chart
 import chart from "../../assets/dashboard/chart.svg";
 
 const Dashboard = () => {
   return (
-    <section className="">
-      <div className="max-w-7xl m-auto ">
-        <Header />
-        <CardMoney />
-        <div>
-          <div>
-            <Image src={chart} alt="chart" width="720px" height="370px"/>
-            <Products />
-          </div>
+    <section>
+      <Header />
+      <CardMoney />
+      <div className="flex gap-1">
+        <div className="basis-[70%]">
+          <Image src={chart} alt="chart" />
+          <Products />
+        </div>
+        <div className="basis-[30%]">
+          <Agents />
         </div>
       </div>
     </section>

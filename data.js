@@ -10,6 +10,13 @@ const three = require("./assets/dashboard/three.svg");
 const ovo = require("./assets/dashboard/ovo.svg");
 const pln = require("./assets/dashboard/pln.svg");
 
+// Import Data Agents
+const user1 = require("./assets/dashboard/user1.svg");
+const user2 = require("./assets/dashboard/user2.svg");
+const user3 = require("./assets/dashboard/user3.svg");
+const user4 = require("./assets/dashboard/user4.svg");
+const user5 = require("./assets/dashboard/user5.svg");
+
 export const DataMoney = {
   datas: [
     {
@@ -39,48 +46,106 @@ export const DataMoney = {
   ],
 };
 
-
 export const DataProducts = {
   datas: [
     {
       id: 1,
       img: maxim,
-      title: 'Maxim',
-      price: '150.000',
+      title: "Maxim",
+      price: "150.000",
       total: 120,
-      transactions: 'transactions'
+      transactions: "transactions",
     },
     {
       id: 2,
       img: telkomsel,
-      title: 'Telkomsel',
-      price: '25.000',
+      title: "Telkomsel",
+      price: "25.000",
       total: 98,
-      transactions: 'transactions'
+      transactions: "transactions",
     },
     {
       id: 3,
       img: three,
-      title: 'Three',
-      price: '50.000',
+      title: "Three",
+      price: "50.000",
       total: 74,
-      transactions: 'transactions'
+      transactions: "transactions",
     },
     {
       id: 4,
       img: ovo,
-      title: 'OVO',
-      price: '100.000',
+      title: "OVO",
+      price: "100.000",
       total: 68,
-      transactions: 'transactions'
+      transactions: "transactions",
     },
     {
       id: 5,
       img: pln,
-      title: 'PLN Postpaid',
-      price: '',
+      title: "PLN Postpaid",
+      price: "",
       total: 50,
-      transactions: 'transactions'
-    }
-  ]
-}
+      transactions: "transactions",
+    },
+  ],
+};
+export const DataAgents = {
+  datas: [
+    {
+      id: 1,
+      img: user1,
+      name: "PT Suka Maju Jakarta",
+      profit: "Profit",
+      nominalProfit: "Rp 3.700.000",
+      sales: "Sales",
+      nominalSales: "Rp 7.230.000",
+      transactions: "Transaction",
+      totalTrans: "43 transactions",
+    },
+    {
+      id: 2,
+      img: user2,
+      name: "Susi Susanti",
+      profit: "Profit",
+      nominalProfit: "Rp 3.550.000",
+      sales: "Sales",
+      nominalSales: "Rp 5.230.000",
+      transactions: "Transaction",
+      totalTrans: "37 transactions",
+    },
+    {
+      id: 3,
+      img: user3,
+      name: "Toko Pulsa III Depok",
+      profit: "Profit",
+      nominalProfit: "Rp 2.860.000",
+      sales: "Sales",
+      nominalSales: "Rp 4.500.000",
+      transactions: "Transaction",
+      totalTrans: "38 transactions",
+    },
+    {
+      id: 4,
+      img: user4,
+      name: "PT Suka Maju Bogor",
+      profit: "Profit",
+      nominalProfit: "Rp 2.400.000",
+      sales: "Sales",
+      nominalSales: "Rp 4.800.000",
+      transactions: "Transaction",
+      totalTrans: "40 transactions",
+    },
+    {
+      id: 5,
+      img: user5,
+      name: "Anton Antoman",
+      profit: "Profit",
+      nominalProfit: "Rp 2.350.000",
+      sales: "Sales",
+      nominalSales: "Rp 2.100.000",
+      transactions: "Transaction",
+      totalTrans: "20 transactions",
+    },
+  ],
+};

@@ -13,13 +13,13 @@ export default function Home() {
         <title>Dashboard | PVG Test</title>
       </Head>
       <div className="font-nunito flex">
-        <div className="basis-[18%]">
+        <div className="basis-[14%]">
           <Navbar />
         </div>
-        <div className="basis-[70%]">
+        <div className="basis-[10%]">
           <Dashboard />
         </div>
-        <div className="basis-[12%]">
+        <div className="basis-[14%]">
           <Profile />
         </div>
       </div>
